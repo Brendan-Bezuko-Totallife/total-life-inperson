@@ -12,8 +12,8 @@
       "uuid": "f29f796e-417e-4635-a0cf-e8573849ebfe",
       "type": "http",
       "documentation": "",
-      "method": "get",
-      "endpoint": "",
+      "method": "post",
+      "endpoint": "calculate-insurance/",
       "responses": [
         {
           "uuid": "9cba7f54-6b3f-44fd-96ac-bf75ff286ed5",

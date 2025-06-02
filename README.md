@@ -1,18 +1,23 @@
 # Total Life Insurance Procedure Calculator
 
-A modern web application for managing medical procedures and calculating insurance coverage details. Built with React, TypeScript, and Tailwind CSS.
+A web application for managing medical procedures and calculating insurance coverage details. Built with React, TypeScript, and Tailwind CSS.
 
-## Features
+## Features to implement
 
 - Import and manage medical procedures (CPT codes)
 - Add/remove procedures from a list
-- Calculate the total cost of prodcurders on the front end
-- Call an end point that will return calculate insurance coverage details:
+- Calculate the total cost of procedures on the front end
+- Call an endpoint that will return calculated insurance coverage details:
   - Coinsurance
   - Copay
   - Deductible
   - Remaining balance
+
+The endpoint will expect a POST requests with the selected procuders as input i nthe body of the request.
+
 - Modern, responsive UI with Tailwind CSS
+
+The primary focus of this assignment is to implement robust core functionalities while maintaining an elegant user interface. Additional time should be allocated to enhancing the UI/UX design.
 
 ## Tech Stack
 
@@ -43,8 +48,5 @@ npm run build
 
 ## Project Structure
 
-- `/src/components` - React components
 - `/src/types` - TypeScript type definitions
 - `/src/data` - JSON data files
-- `/src/api` - API integration
-- `/src/styles` - Global styles and Tailwind configuration
